@@ -13,6 +13,7 @@
 		CB9527701F39D7B100BDD3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB95276E1F39D7B100BDD3E2 /* Main.storyboard */; };
 		CB9527721F39D7B100BDD3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9527711F39D7B100BDD3E2 /* Assets.xcassets */; };
 		CB9527751F39D7B100BDD3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9527731F39D7B100BDD3E2 /* LaunchScreen.storyboard */; };
+		CB95277E1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CB95277D1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CB9527711F39D7B100BDD3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9527741F39D7B100BDD3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB9527761F39D7B100BDD3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB95277C1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorner+Shadow.h"; sourceTree = "<group>"; };
+		CB95277D1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorner+Shadow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CB9527731F39D7B100BDD3E2 /* LaunchScreen.storyboard */,
 				CB9527761F39D7B100BDD3E2 /* Info.plist */,
 				CB9527651F39D7B100BDD3E2 /* Supporting Files */,
+				CB95277C1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.h */,
+				CB95277D1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.m */,
 			);
 			path = UIViewWithRoundedCornersAndShadow;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB95277E1F39D80A00BDD3E2 /* UIView+RoundedCorner+Shadow.m in Sources */,
 				CB95276D1F39D7B100BDD3E2 /* ViewController.m in Sources */,
 				CB95276A1F39D7B100BDD3E2 /* AppDelegate.m in Sources */,
 				CB9527671F39D7B100BDD3E2 /* main.m in Sources */,
