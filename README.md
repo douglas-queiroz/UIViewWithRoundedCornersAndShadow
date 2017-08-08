@@ -1,8 +1,8 @@
 # UIViewWithRoundedCornersAndShadow
 After some hours searching about how add shadow and rounded corners in a uiview, I did create this example with all that I did read about this subject.
 
-## Intalation
-To intall you will need drag the "UIView+RoundedCorner+Shadow.h" and "UIView+RoundedCorner+Shadow.m" to your project.
+## Instalation
+To install you will need drag the "UIView+RoundedCorner+Shadow.h" and "UIView+RoundedCorner+Shadow.m" to your project.
 
 ## Applying
 1- Create a uivew that will receiver this effect
